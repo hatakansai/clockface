@@ -79,7 +79,7 @@ function setDay(val) {
   }
 }
 
-//バッテーリのテキストセット
+//バッテリーのテキストセット
 function setBattery(val){
   btry.text = val;
 }
