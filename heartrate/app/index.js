@@ -5,12 +5,12 @@ let hrm = document.getElementById("hrm");
 function setHeartRate(val) {
     console.log("心拍数：" + val);
     hrm.text = val;
-    if (val > 80) {
+    if (val > 100) {
         hrm.style.fill = "red";
-    } else if (val < 60) {
+    } else if (val < 80) {
         hrm.style.fill = "blue";
     } else {
-        hrm.style.fill = "white";
+        hrm.style.fill = "black";
     }
     
 }

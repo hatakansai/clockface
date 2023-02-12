@@ -1,5 +1,5 @@
 
-   <svg>
-	<text x="150" y="100" font-size="50" fill="white" text-anchor="middle">心拍数</text>
-	<text id="hrm" x="150" y="220" font-size="100" fill="white" text-anchor="middle">110</text>
+   <svg viewport-fill="white">
+	<text x="150" y="100" font-size="50" fill="black" text-anchor="middle">心拍数</text>
+	<text id="hrm" x="150" y="220" font-size="100" fill="black" text-anchor="middle">110</text>
    </svg>
